@@ -1,0 +1,115 @@
+body{
+ margin: 0;
+ background-color: white;
+}
+
+#logo-image {
+    margin-left: 68px;
+    margin-top: 111.37px;
+    margin-right: 68px;
+}
+
+.signup-form{
+    margin-left: 31px;
+    margin-top: 47px;
+ 
+    /* white-space: nowrap; */
+}
+
+.input-field{
+    display: block;
+    width: 313px;
+    height: 49px;
+    margin-bottom: 21px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: 1px solid #F0F0F0;
+    background: #FFF9F9;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+form > :last-child {
+    margin-bottom: 0;
+}
+
+
+#country-code {
+    width: 83px;
+    height: 48px;
+    font-weight: 600;
+    padding-left: 21px;
+    display: inline-block;
+}
+
+#mobile-number {
+    display: inline-block;
+    width: 221px;
+    height: 48px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+.accept-agreement{
+    display: inline-block;
+    padding-left: 64px;
+    align-items: center;
+    margin-top: 23.39px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+}
+
+.accept-agreement > input {
+    width: 21.88px;
+    height: 21.88px;
+    border: 1px solid #BCBDC0;
+    border-radius: 5px;
+    vertical-align:middle;
+    margin: 0;
+}
+
+.accept-agreement > label {
+    margin-left: 11px;
+}
+
+.accept-agreement > a {
+    color: #F1586C;
+}
+
+
+#register-button{
+    display: block;
+    width: 310px;
+    height: 45px;
+    margin-top: 24px;
+    margin-left: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    border: white;
+    color: white;
+    background: linear-gradient(53.41deg, #F1586C 18.35%, #714FDB 71.87%, #407FFC 125.4%);
+}
+
+#check-account{
+    margin-left: 82px;
+    margin-top: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#check-account > p {
+    display: inline;
+}

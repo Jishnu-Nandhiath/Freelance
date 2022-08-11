@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/sign-up.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <img src="./Images/logo.png" id="logo-image"/>
+    <form class="signup-form">
+            <input type="text" class="input-field" placeholder="First Name">
+            <input type="text" class="input-field" placeholder="Last Name">
+            <input type="text" class="input-field" placeholder="Email Address">
+            <select id="country-code" class="input-field">
+                <option value="volvo">+917</option>
+                <option value="saab">+91</option>
+                <option value="opel">+31</option>
+                <option value="audi">+42</option>
+            </select>
+            <input type="text" id="mobile-number" class="input-field" placeholder="Mobile Number">
+            <input type="text" class="input-field" placeholder="Password">
+            <input type="text" class="input-field" placeholder="Confirm Password">
+    </form>
+
+    <div class="accept-agreement">
+        <input type="checkbox" name="agree">
+        <label for="agree">I accept the </label>
+        <a href="#"> Terms & Conditions </a>
+    </div>
+
+    <button type="button" id="register-button">Register</button>
+
+    <div id="check-account">
+        <p>Already have an account?</p>
+        <a href="#">Login</a>
+    </div>
+
+</body>
+</html>
